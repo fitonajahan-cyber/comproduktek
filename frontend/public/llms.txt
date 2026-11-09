@@ -1,0 +1,12 @@
+# Satlak Dukteksi PUSSIBERAD TNI AD
+
+> Website resmi Satuan Pelaksana Dukungan Teknologi Siber (Satlak Dukteksi PUSSIBERAD) TNI Angkatan Darat. Menyajikan informasi profil satuan, inovasi riset teknologi siber pertahanan, berita terkini, dan layanan publik.
+
+## Navigasi & Informasi Publik
+- [Beranda](https://pussiberad.mil.id/): Halaman utama profil resmi Satlak Dukteksi PUSSIBERAD TNI AD.
+- [Tentang Kami](https://pussiberad.mil.id/tentang-kami): Sejarah, visi, misi, dan tugas pokok satuan dalam pengamanan ruang siber pertahanan.
+- [Struktur Organisasi](https://pussiberad.mil.id/struktur-organisasi): Susunan komando dan kepemimpinan Satlak Dukteksi PUSSIBERAD.
+- [Produk & Layanan](https://pussiberad.mil.id/produk): Katalog inovasi riset terapan, rekayasa terbalik (reverse engineering), dan pemeliharaan infrastruktur siber.
+- [Galeri Kegiatan](https://pussiberad.mil.id/galeri): Dokumentasi foto dan publikasi kegiatan kedinasan serta operasional.
+- [Berita Terkini](https://pussiberad.mil.id/berita): Warta, artikel edukasi siber, dan publikasi agenda resmi.
+- [Kontak Resmi](https://pussiberad.mil.id/kontak): Alamat markas komando, surat elektronik (email), dan saluran komunikasi kedinasan.

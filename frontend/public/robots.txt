@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin-portal
+Disallow: /portal-dukteksi
+Disallow: /soldier
+Disallow: /api/
+
+Sitemap: https://pussiberad.mil.id/sitemap.xml

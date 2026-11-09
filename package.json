@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "express-rate-limit": "^8.6.2",
+    "framer-motion": "^13.0.0",
+    "lucide-react": "^1.28.0",
+    "pg": "^8.23.0",
+    "pg-hstore": "^2.3.4"
+  }
+}

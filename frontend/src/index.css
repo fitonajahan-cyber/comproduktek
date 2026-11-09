@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-panel text-inktext font-sans;
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid #4274D9;
+  outline-offset: 2px;
+}
+
+.btn-primary {
+  @apply bg-navy text-white px-5 py-2.5 rounded shadow-md font-medium hover:bg-steel hover:shadow-lg transition-all duration-300;
+}
+
+.btn-gold {
+  @apply bg-gold text-navy px-5 py-2.5 rounded shadow-md font-bold hover:brightness-110 hover:shadow-lg transition-all duration-300;
+}
+
+.card {
+  @apply bg-white rounded-xl shadow-md border border-gray-100 p-6 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-extrabold text-navy mb-3 tracking-tight;
+}
+
+.section-divider {
+  @apply w-20 h-1.5 bg-gold rounded-full mb-8;
+}
+
+/* Glassmorphism for Navbar when scrolled */
+.glass-nav {
+  @apply bg-navy/90 backdrop-blur-md shadow-lg border-b border-white/10;
+}
+
+/* Sembunyikan scrollbar tapi tetap bisa discroll (dipakai BottomNav admin di HP kecil) */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* DOCX Preview Styling */
+.docx-wrapper {
+  background: transparent !important;
+  padding: 0 !important;
+}
+.docx-wrapper > section.docx {
+  background: white !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+  margin-bottom: 24px !important;
+  border-radius: 4px !important;
+}

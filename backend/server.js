@@ -24,6 +24,9 @@ const jadwalPiketRoutes = require('./routes/jadwalPiketRoutes');
 
 const app = express();
 
+// Trust proxy dari Nginx (satu hop) agar express-rate-limit baca IP asli dari X-Forwarded-For
+app.set('trust proxy', 1);
+
 app.use(
   helmet({
     crossOriginResourcePolicy: { policy: "cross-origin" },

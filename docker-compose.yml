@@ -46,6 +46,8 @@ services:
     # Port backend tidak di-expose langsung ke luar, hanya diakses dari Nginx
     expose:
       - "5000"
+    # Jalankan seed otomatis saat pertama kali start, lalu jalankan server
+    command: sh -c "node seed-all.js && node server.js"
 
   frontend:
     build:
